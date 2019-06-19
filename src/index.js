@@ -13,7 +13,7 @@ const App = () => {
                 author = ' Chumley ' 
                 timeAgo = 'Today at 5:45PM' 
                 text = 'You guys ROCK!' 
-                avatar = {faker.image.avatar} 
+                avatar = {faker.image.avatar()} 
                 />
                 </ApprovalCard>
             <ApprovalCard>
@@ -21,7 +21,7 @@ const App = () => {
                 author = ' Tennesse ' 
                 timeAgo = 'Today at 8:18AM' 
                 text = 'Pretty bad a$$!'
-                avatar = {faker.image.avatar}
+                avatar = {faker.image.avatar()}
                 />
                 </ApprovalCard> 
             <ApprovalCard>
@@ -29,7 +29,7 @@ const App = () => {
                 author = ' Phineas ' 
                 timeAgo = 'Yesterday at 1:33PM' 
                 text = 'Dude that is solid' 
-                avatar = {faker.image.avatar}
+                avatar = {faker.image.avatar()}
                 />
            </ApprovalCard> 
             <ApprovalCard>
@@ -37,7 +37,7 @@ const App = () => {
                 author = ' Stanley ' 
                 timeAgo = 'Yesterday at 2:03AM' 
                 text = 'Far out man!' 
-                avatar = {faker.image.avatar}
+                avatar = {faker.image.avatar()}
                  />
             </ApprovalCard> 
         </div>
