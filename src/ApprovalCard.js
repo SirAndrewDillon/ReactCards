@@ -3,7 +3,7 @@ import React from 'react';
 const ApprovalCard = (props) => {
     return (
         <div className = 'ui card'>
-            // Without proops.children nothing works!
+            // Without props.children nothing works!
             <div className = 'content'>{props.children}</div>
                 <div className = 'extra content'>
                     <div className = 'ui two buttons'>
